@@ -16,5 +16,6 @@ Run specific file
 ```mvn exec:java -Dexec.mainClass=nlp.speechToText.TranscriptionAdapt -Dexec.args="'argument separated with space' 'another one'"```
 
 
-If you get an error where it says Audacity is already running:wq
+If you get an error where it says Audacity is already running
+
 go to ~/Library/Application Support/audacity and trash the contents of the "SessionData" folder
